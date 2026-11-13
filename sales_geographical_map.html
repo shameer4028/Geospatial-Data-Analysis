@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fb257ff0d15dc52982a1f3d444f5bd74 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fb257ff0d15dc52982a1f3d444f5bd74" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fb257ff0d15dc52982a1f3d444f5bd74 = L.map(
+                "map_fb257ff0d15dc52982a1f3d444f5bd74",
+                {
+                    center: [15.0, 78.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 5,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_038b9f99e1da3a3a371d4243ae0bfffe = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_038b9f99e1da3a3a371d4243ae0bfffe.addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+            var circle_marker_d38bc97db5e032fce29c2efd140775bb = L.circleMarker(
+                [16.5062, 80.648],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_2216d42e2485bcc0a3eb4ee6f6b11d5a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_982156f109fc9c2ebe2aa57833593057 = $(`<div id="html_982156f109fc9c2ebe2aa57833593057" style="width: 100.0%; height: 100.0%;">City: Vijayawada<br>Sales: Rs. 25000<br>Customer Demand: 900<br>Existing Stores: 1<br>Opportunity: High Opportunity</div>`)[0];
+                popup_2216d42e2485bcc0a3eb4ee6f6b11d5a.setContent(html_982156f109fc9c2ebe2aa57833593057);
+            
+        
+
+        circle_marker_d38bc97db5e032fce29c2efd140775bb.bindPopup(popup_2216d42e2485bcc0a3eb4ee6f6b11d5a)
+        ;
+
+        
+    
+    
+            var circle_marker_d0613ab28884ad5a34c567be1385732c = L.circleMarker(
+                [9.9252, 78.1198],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_08d1687195daa1fa159fb7c0adaf350c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e3b5e7df5d5ff1c178f8f257a177bcb = $(`<div id="html_5e3b5e7df5d5ff1c178f8f257a177bcb" style="width: 100.0%; height: 100.0%;">City: Madurai<br>Sales: Rs. 30000<br>Customer Demand: 850<br>Existing Stores: 1<br>Opportunity: High Opportunity</div>`)[0];
+                popup_08d1687195daa1fa159fb7c0adaf350c.setContent(html_5e3b5e7df5d5ff1c178f8f257a177bcb);
+            
+        
+
+        circle_marker_d0613ab28884ad5a34c567be1385732c.bindPopup(popup_08d1687195daa1fa159fb7c0adaf350c)
+        ;
+
+        
+    
+    
+            var circle_marker_599caf29dec0f63418e1521e1eca9739 = L.circleMarker(
+                [9.9312, 76.2673],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_179351a2d9af7d2b0b436d60d6a4ab41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3a303eba251781ced3eb65e615e292d0 = $(`<div id="html_3a303eba251781ced3eb65e615e292d0" style="width: 100.0%; height: 100.0%;">City: Kochi<br>Sales: Rs. 45000<br>Customer Demand: 700<br>Existing Stores: 2<br>Opportunity: Normal</div>`)[0];
+                popup_179351a2d9af7d2b0b436d60d6a4ab41.setContent(html_3a303eba251781ced3eb65e615e292d0);
+            
+        
+
+        circle_marker_599caf29dec0f63418e1521e1eca9739.bindPopup(popup_179351a2d9af7d2b0b436d60d6a4ab41)
+        ;
+
+        
+    
+    
+            var circle_marker_613cf4432cd4a813043bed5a8b6a2059 = L.circleMarker(
+                [12.2958, 76.6394],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_47e0132f4fb541ec958a3a0c5a861854 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c0a5401069913e157f4fe08cf782d16 = $(`<div id="html_1c0a5401069913e157f4fe08cf782d16" style="width: 100.0%; height: 100.0%;">City: Mysore<br>Sales: Rs. 40000<br>Customer Demand: 650<br>Existing Stores: 2<br>Opportunity: Normal</div>`)[0];
+                popup_47e0132f4fb541ec958a3a0c5a861854.setContent(html_1c0a5401069913e157f4fe08cf782d16);
+            
+        
+
+        circle_marker_613cf4432cd4a813043bed5a8b6a2059.bindPopup(popup_47e0132f4fb541ec958a3a0c5a861854)
+        ;
+
+        
+    
+    
+            var circle_marker_c4ea36b4248dfe36c9e703639e728afa = L.circleMarker(
+                [18.5204, 73.8567],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_e63dc8fab6285db0b4d29353200c4d0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9b6883b0e463e026ed123cf286a9914 = $(`<div id="html_d9b6883b0e463e026ed123cf286a9914" style="width: 100.0%; height: 100.0%;">City: Pune<br>Sales: Rs. 70000<br>Customer Demand: 800<br>Existing Stores: 4<br>Opportunity: Normal</div>`)[0];
+                popup_e63dc8fab6285db0b4d29353200c4d0d.setContent(html_d9b6883b0e463e026ed123cf286a9914);
+            
+        
+
+        circle_marker_c4ea36b4248dfe36c9e703639e728afa.bindPopup(popup_e63dc8fab6285db0b4d29353200c4d0d)
+        ;
+
+        
+    
+    
+            var circle_marker_85a2cc7a609ea0e94afbeb566f680f58 = L.circleMarker(
+                [11.0168, 76.9558],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_657b122efc97e38069a46a7d2c64915f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3171bb2e87dd6186689b4785f82fc04 = $(`<div id="html_a3171bb2e87dd6186689b4785f82fc04" style="width: 100.0%; height: 100.0%;">City: Coimbatore<br>Sales: Rs. 65000<br>Customer Demand: 750<br>Existing Stores: 5<br>Opportunity: Normal</div>`)[0];
+                popup_657b122efc97e38069a46a7d2c64915f.setContent(html_a3171bb2e87dd6186689b4785f82fc04);
+            
+        
+
+        circle_marker_85a2cc7a609ea0e94afbeb566f680f58.bindPopup(popup_657b122efc97e38069a46a7d2c64915f)
+        ;
+
+        
+    
+    
+            var circle_marker_64a20875bb6dc807391be8a838aa357d = L.circleMarker(
+                [13.0827, 80.2707],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_3db335a38a8abbc74cb070d14072bb08 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f7cbc79847bc010c480e3798e8e050e1 = $(`<div id="html_f7cbc79847bc010c480e3798e8e050e1" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Sales: Rs. 85000<br>Customer Demand: 900<br>Existing Stores: 8<br>Opportunity: Normal</div>`)[0];
+                popup_3db335a38a8abbc74cb070d14072bb08.setContent(html_f7cbc79847bc010c480e3798e8e050e1);
+            
+        
+
+        circle_marker_64a20875bb6dc807391be8a838aa357d.bindPopup(popup_3db335a38a8abbc74cb070d14072bb08)
+        ;
+
+        
+    
+    
+            var circle_marker_23707956185c8c13e26a973aaf48b149 = L.circleMarker(
+                [12.9716, 77.5946],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_10c383a1229d70fe7cf04bc559780fd1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20035580035a2f688f9ef8ce3fe84e25 = $(`<div id="html_20035580035a2f688f9ef8ce3fe84e25" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Sales: Rs. 95000<br>Customer Demand: 950<br>Existing Stores: 10<br>Opportunity: Normal</div>`)[0];
+                popup_10c383a1229d70fe7cf04bc559780fd1.setContent(html_20035580035a2f688f9ef8ce3fe84e25);
+            
+        
+
+        circle_marker_23707956185c8c13e26a973aaf48b149.bindPopup(popup_10c383a1229d70fe7cf04bc559780fd1)
+        ;
+
+        
+    
+    
+            var circle_marker_d559fce742efc1557b3e63b2d2d59272 = L.circleMarker(
+                [17.385, 78.4867],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_b767b9e947df2365b2584af3bd8f99c8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3099c0d86f23d9ba21347718e5b9ce2 = $(`<div id="html_a3099c0d86f23d9ba21347718e5b9ce2" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Sales: Rs. 90000<br>Customer Demand: 850<br>Existing Stores: 9<br>Opportunity: Normal</div>`)[0];
+                popup_b767b9e947df2365b2584af3bd8f99c8.setContent(html_a3099c0d86f23d9ba21347718e5b9ce2);
+            
+        
+
+        circle_marker_d559fce742efc1557b3e63b2d2d59272.bindPopup(popup_b767b9e947df2365b2584af3bd8f99c8)
+        ;
+
+        
+    
+    
+            var circle_marker_6507962134c48aa8c7b526588e3f7c1b = L.circleMarker(
+                [19.076, 72.8777],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_fb257ff0d15dc52982a1f3d444f5bd74);
+        
+    
+        var popup_6578ae55bee648477c3de65f99c53e81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_714e6e6d1d91fb13270f6e54fa185831 = $(`<div id="html_714e6e6d1d91fb13270f6e54fa185831" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Sales: Rs. 98000<br>Customer Demand: 980<br>Existing Stores: 12<br>Opportunity: Normal</div>`)[0];
+                popup_6578ae55bee648477c3de65f99c53e81.setContent(html_714e6e6d1d91fb13270f6e54fa185831);
+            
+        
+
+        circle_marker_6507962134c48aa8c7b526588e3f7c1b.bindPopup(popup_6578ae55bee648477c3de65f99c53e81)
+        ;
+
+        
+    
+</script>
+</html>
